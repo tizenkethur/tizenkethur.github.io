@@ -1,0 +1,12 @@
+div {
+    border: black solid 2px;
+    border-top: none;
+    width: 300px;
+    font-weight: bolder;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+div:hover {
+    background-color: tomato;
+}
