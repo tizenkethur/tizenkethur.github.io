@@ -1,0 +1,71 @@
+body {
+    background-image: url('background.png');
+    font-family: 'PT Serif', serif;
+    line-height: 1.5;
+}
+
+main {
+    padding: 5% 10% 5% 10%;
+}
+
+header, footer {
+    background: #333333;
+    height: 40px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pink, footer {
+    color: #ff0099;
+    display: flex;
+    align-items: center;
+    padding-right: 10%;
+}
+
+.link, .link:visited, #email {
+    color: #ff0099;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: 10%;   
+}
+
+#introducing {
+    margin-bottom: 50px;
+}
+
+#myName {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+hr {
+    border-top: 1px dashed;
+    width: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#wiki {
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.description {
+    font-family: 'Courier Prime', monospace;
+}
+
+#footerName {
+    margin-right: auto;
+    margin-left: 10%;
+}
